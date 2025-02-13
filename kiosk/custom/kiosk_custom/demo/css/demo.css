@@ -137,7 +137,7 @@
 #maintitle {
   padding-top: 8px;
   color: var(--col-primary-bg-1);
-  font-size: var(--font-size-h3);
+  font-size: var(--font-size-h2);
 }
 @media only screen and (max-width : 800px) {
   #maintitle {
