@@ -117,20 +117,31 @@
   background-color: #ac9486 !important;
 }
 
+#logo #img {
+  background-size: contain;
+  background-position: center;
+}
+
 :root {
   /* ##########################################
   * images
   * ######################################### */
   --font-size-h1: 2.427rem;
+  --col-bg-kiosk-version: var(--col-bg-1-lighter);
+}
+
+.kiosk-version {
+  font-size: 10px;
 }
 
 #maintitle {
   padding-top: 8px;
   color: var(--col-primary-bg-1);
+  font-size: var(--font-size-h3);
 }
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 800px) {
   #maintitle {
-    font-size: var(--font-size-h3);
+    font-size: var(--font-size-h4);
     padding-top: 0px;
   }
 }
@@ -140,8 +151,8 @@
   color: var(--col-bg-3-darker);
 }
 
-#logo {
-  background-color: var(--col-bg-1);
+#logo #img {
+  margin: 1.2vw;
 }
 
 #logo-bottom {
@@ -158,4 +169,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=elri.css.map */
+/*# sourceMappingURL=demo.css.map */

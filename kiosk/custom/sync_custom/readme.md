@@ -1,1 +1,1 @@
-we are using the kiosk defaults for USTP
+we are using the kiosk defaults here
